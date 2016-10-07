@@ -9,7 +9,7 @@ from soap_test.DjangoSoapAppModule import DjangoSoapApp
 class MySOAPService(DefinitionBase):
     @rpc(String, String, _returns=Boolean)
     def Test(self, f1, f2):
-        return f1>=f2
+        return f1>f2
 
 # Create your views here.
 
