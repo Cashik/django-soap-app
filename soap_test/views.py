@@ -8,7 +8,7 @@ from soap_test.DjangoSoapAppModule import DjangoSoapApp
 
 class MySOAPService(DefinitionBase):
     @rpc(String, String, _returns=Boolean)
-    def Test(self, f1, f2):
+    def concat(self, f1, f2):
         return str(f1).upper()+str(f2).lower()
 
 # Create your views here.
