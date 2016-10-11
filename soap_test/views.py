@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 # the class with actual web methods
-from soaplib.core.model.primitive import String, Boolean
+from soaplib.core.model.primitive import String
 from soaplib.core.service import DefinitionBase, rpc
 from soap_test.DjangoSoapAppModule import DjangoSoapApp
 
